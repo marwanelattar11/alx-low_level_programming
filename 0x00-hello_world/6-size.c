@@ -1,6 +1,12 @@
 #include <stdio.h>
 
-/***/
+/**
+ * main - entry point
+ *
+ * description: a c program using sizeof function
+ *
+ * return: always 0 (sucess)
+*/
 
 int main(void)
 {
