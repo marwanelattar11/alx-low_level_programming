@@ -15,11 +15,11 @@ void times_table(void)
 		{
 			_putchar (',');
 			_putchar (' ');
-			if ((r * i) <= 9)
+			if ((r * c) <= 9)
 				_putchar (' ');
 			else
-				_putchar (((r * i) / 10) + '0');
-			_putchar (((r * i) % 10) + '0');
+				_putchar (((r * c) / 10) + '0');
+			_putchar (((r * c) % 10) + '0');
 		}
 		_putchar ('\n');
 	}
