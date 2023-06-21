@@ -1,10 +1,16 @@
 #include <stdio.h>
 
-/***/
+/**
+ * main - entery point
+ *
+ * Description: a
+ *
+ * Return: 0
+*/
 
 int main(void)
 {
-	int i; 
+	int i;
 	long s1, s2, next;
 
 	s1 = 0;
@@ -18,4 +24,5 @@ int main(void)
 		s2 = next;
 		next = s1 + s2;
 	}
+	return (0);
 }
