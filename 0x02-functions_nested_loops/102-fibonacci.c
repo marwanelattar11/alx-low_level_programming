@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+/***/
+
+int main(void)
+{
+	int i, s1, s2, next;
+
+	s1 = 0;
+	s2 = 1;
+	next = s1 + s2;
+	printf("%d,%d,", s1, s2);
+	for (i = 0; i < 50; i++)
+	{
+		printf("%d,", next);
+		s1 = s2;
+		s2 = next;
+		next = s1 + s2;
+	}
+}
