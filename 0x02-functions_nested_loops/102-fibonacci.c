@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -20,10 +19,16 @@ int main(void)
 	printf("%d,%d,", s1, s2);
 	for (i = 0; i < 50; i++)
 	{
-		printf("%d,", next);
-		s1 = s2;
-		s2 = next;
-		next = s1 + s2;
+		if (i != 49)
+		{
+			printf("%d,", next);
+			s1 = s2;
+			s2 = next;
+			next = s1 + s2;
+		}
+		else
+			printf("%d", next);
 	}
 	return (0);
 }
+
