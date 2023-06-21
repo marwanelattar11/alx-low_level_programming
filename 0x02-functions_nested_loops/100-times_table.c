@@ -18,14 +18,14 @@ void print_times_table(int n)
 			printf("0");
 			for (j = 1; j < (n + 1); j++)
 			{
-				p = i * j;
+				m = i * j;
 				printf(", ");
-				if (p <= 9)
-					printf("  %d", p);
-				else if (p <= 99 && p > 9)
-					printf(" %d", p);
+				if (m <= 9)
+					printf("  %d", m);
+				else if (m <= 99 && m > 9)
+					printf(" %d", m);
 				else
-					printf("%d", p);
+					printf("%d", m);
 			}
 		}
 	}
