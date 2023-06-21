@@ -4,7 +4,8 @@
 
 int main(void)
 {
-	int i, s1, s2, next;
+	int i; 
+	long s1, s2, next;
 
 	s1 = 0;
 	s2 = 1;
