@@ -1,11 +1,11 @@
 #include "main.h"
 
-/*
- * _isdigit - entery
+/**
+ * _isdigit - entry
  *
  * @c: input
  *
- * Return: 1 if digit
+ * Return: 1 if digit otherwise 0
 */
 
 int _isdigit(int c)
